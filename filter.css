@@ -1,0 +1,90 @@
+img {
+    width: 100%;
+}
+/*filter: grayscale([<number>|<percentage>])*/
+.img2 {
+    filter: grayscale(50%);
+}
+
+.img3 {
+    filter: grayscale(100%);
+    /*1 represent 100% in num*/
+}
+
+/*filter: sepia*/
+/*
+.img2 {
+    filter: sepia(50%);
+}
+
+.img3 {
+    filter: sepia(100%);
+}
+*/
+
+/*filter: saturate*/
+/*
+.img2 {
+    filter: saturate(200%);
+}
+
+.img3 {
+    filter: saturate(100%);
+}
+*/
+
+/*filter: brightness*/
+/*
+.img2 {
+    filter: brightness(50%);
+}
+
+.img3 {
+    filter: brightness(100%);
+}
+*/
+
+/*filter: drop-shadow*/
+/*
+.img2 {
+    filter: drop-shadow(2px 2px 10px black);
+}
+
+.img3 {
+    filter: drop-shadow(5px 5px 10px blue);
+}
+*/
+
+/*filter: drop-shadow*/
+/*
+.img2 {
+    filter: drop-shadow(2px 2px 10px black) grayscale(50%) brightness(20%);
+}
+*/
+
+/*filter: animated*/
+/*
+.img2 {
+    filter: grayscale(50%);
+    transition: 2s;
+}
+
+img2:hover {
+    filter: none;
+}
+
+.img3 {
+    animation: change-colors;
+}
+@keyframes change-colors {
+    0%{
+        filter: none;
+    }
+    10%{
+        filter: grayscale(10%);
+    }
+    50%{
+        filter: contrast(30%);
+    }
+}
+*/
